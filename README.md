@@ -62,4 +62,10 @@
 <div  align="center">
 <img  src="https://streak-stats.demolab.com?user=naveenslog&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3"  height="220"  alt="streak graph"  />
 </div>
-###
+
+<h3 align="left">🔥   My Activities :</h3>
+<div  align="center">
+<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=naveenslog&show_icons=true&locale=en&layout=compact" alt="naveenslog" />
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=naveenslog&show_icons=true&locale=en" alt="naveenslog" />
+</div>  
+
