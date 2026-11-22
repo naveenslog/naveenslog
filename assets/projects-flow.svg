@@ -1,62 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="170" viewBox="0 0 1100 170" role="img" aria-labelledby="title desc">
-  <title id="title">How the work moves</title>
-  <desc id="desc">An animated pipeline from understanding the problem through automation, building, and shipping.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="160" viewBox="0 0 1100 160" role="img" aria-labelledby="title desc">
+  <title id="title">How a piece of work moves</title>
+  <desc id="desc">A light timeline with four stations — listen, automate, build and ship — and dots flowing along the path.</desc>
   <defs>
-    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#21D4FD"/>
-      <stop offset="0.5" stop-color="#2DD4BF"/>
-      <stop offset="1" stop-color="#FF6B4A"/>
-    </linearGradient>
-    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="3" result="b"/>
+    <filter id="flowShadow" x="-3%" y="-10%" width="106%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#1E1B4B" flood-opacity="0.09"/>
+    </filter>
+    <filter id="flowGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <linearGradient id="flowLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4F46E5"/>
+      <stop offset="0.5" stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#E07A5F"/>
+    </linearGradient>
   </defs>
-  <rect x="1" y="1" width="1098" height="168" rx="8" fill="#0A0F17" stroke="#273544" stroke-width="2"/>
-  <g font-family="Segoe UI, Arial, sans-serif">
-    <text x="34" y="48" fill="#F8FAFC" font-size="20" font-weight="700">HOW THE WORK MOVES</text>
-    <text x="34" y="75" fill="#8293A7" font-size="13">PROBLEM TO PRODUCTION</text>
-    <rect x="34" y="98" width="128" height="4" rx="2" fill="url(#rail)">
-      <animate attributeName="width" values="44;128;44" dur="4s" repeatCount="indefinite"/>
-    </rect>
 
-    <path d="M222 86 H1024" fill="none" stroke="#263747" stroke-width="4" stroke-linecap="round"/>
-    <path d="M222 86 H1024" fill="none" stroke="url(#rail)" stroke-width="2" stroke-dasharray="12 16">
-      <animate attributeName="stroke-dashoffset" values="0;-112" dur="3.2s" repeatCount="indefinite"/>
-    </path>
+  <rect x="6" y="6" width="1088" height="148" rx="20" fill="#FFFFFF" stroke="#E6E9F2" stroke-width="1.5" filter="url(#flowShadow)"/>
 
-    <g transform="translate(250 86)">
-      <animateTransform attributeName="transform" type="translate" values="250 86;250 79;250 86" dur="4.8s" repeatCount="indefinite"/>
-      <polygon points="0,-36 72,-18 0,0 -72,-18" fill="#15304B" stroke="#2B91BF"/>
-      <polygon points="-72,-18 0,0 0,48 -72,28" fill="#102238" stroke="#246681"/>
-      <polygon points="0,0 72,-18 72,28 0,48" fill="#183141" stroke="#28768A"/>
-      <text x="0" y="20" text-anchor="middle" fill="#8FE5FF" font-size="11" font-weight="700">LISTEN</text>
-    </g>
-    <g transform="translate(500 86)">
-      <animateTransform attributeName="transform" type="translate" values="500 86;500 79;500 86" dur="4.8s" begin="-1.2s" repeatCount="indefinite"/>
-      <polygon points="0,-36 72,-18 0,0 -72,-18" fill="#15443D" stroke="#32AE91"/>
-      <polygon points="-72,-18 0,0 0,48 -72,28" fill="#102D2B" stroke="#287766"/>
-      <polygon points="0,0 72,-18 72,28 0,48" fill="#1B3F38" stroke="#359179"/>
-      <text x="0" y="20" text-anchor="middle" fill="#86F1D4" font-size="11" font-weight="700">AUTOMATE</text>
-    </g>
-    <g transform="translate(750 86)">
-      <animateTransform attributeName="transform" type="translate" values="750 86;750 79;750 86" dur="4.8s" begin="-2.4s" repeatCount="indefinite"/>
-      <polygon points="0,-36 72,-18 0,0 -72,-18" fill="#40381C" stroke="#C99D33"/>
-      <polygon points="-72,-18 0,0 0,48 -72,28" fill="#2A2618" stroke="#806B2D"/>
-      <polygon points="0,0 72,-18 72,28 0,48" fill="#423A22" stroke="#9D8031"/>
-      <text x="0" y="20" text-anchor="middle" fill="#FFE18A" font-size="11" font-weight="700">BUILD</text>
-    </g>
-    <g transform="translate(1000 86)">
-      <animateTransform attributeName="transform" type="translate" values="1000 86;1000 79;1000 86" dur="4.8s" begin="-3.6s" repeatCount="indefinite"/>
-      <polygon points="0,-36 72,-18 0,0 -72,-18" fill="#50302D" stroke="#D76859"/>
-      <polygon points="-72,-18 0,0 0,48 -72,28" fill="#32211F" stroke="#8D4940"/>
-      <polygon points="0,0 72,-18 72,28 0,48" fill="#4A2D2C" stroke="#A95248"/>
-      <text x="0" y="20" text-anchor="middle" fill="#FFB09E" font-size="11" font-weight="700">SHIP</text>
-    </g>
+  <text x="40" y="42" fill="#0F172A" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700">How a piece of work moves</text>
+  <text x="40" y="64" fill="#64748B" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12">Listen, then automate, build and ship.</text>
 
-    <g fill="#FFFFFF" filter="url(#glow)">
-      <circle r="4"><animateMotion dur="4.2s" repeatCount="indefinite" path="M222,86 H1024"/></circle>
-      <circle r="3" fill="#2DD4BF"><animateMotion dur="4.2s" begin="-2.1s" repeatCount="indefinite" path="M222,86 H1024"/></circle>
+  <path d="M40 108 H1060" fill="none" stroke="#E2E8F0" stroke-width="3" stroke-linecap="round"/>
+  <path d="M40 108 H1060" fill="none" stroke="url(#flowLine)" stroke-width="2" stroke-dasharray="5 10" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" values="0;-90" dur="5s" repeatCount="indefinite"/>
+  </path>
+
+  <g font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">
+    <g transform="translate(200 108)">
+      <circle r="16" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+      <text y="36" fill="#3730A3">LISTEN</text>
     </g>
+    <g transform="translate(467 108)">
+      <circle r="16" fill="#F0FDFA" stroke="#0F766E" stroke-width="2"/>
+      <text y="36" fill="#115E59">AUTOMATE</text>
+    </g>
+    <g transform="translate(733 108)">
+      <circle r="16" fill="#FFF1EC" stroke="#E07A5F" stroke-width="2"/>
+      <text y="36" fill="#9A3412">BUILD</text>
+    </g>
+    <g transform="translate(1000 108)">
+      <circle r="16" fill="#F8FAFC" stroke="#64748B" stroke-width="2"/>
+      <text y="36" fill="#334155">SHIP</text>
+    </g>
+  </g>
+
+  <g filter="url(#flowGlow)">
+    <circle r="4.5" fill="#4F46E5">
+      <animateMotion dur="5.8s" repeatCount="indefinite" path="M40,108 H1060"/>
+    </circle>
+    <circle r="3.5" fill="#E07A5F">
+      <animateMotion dur="5.8s" begin="-2.9s" repeatCount="indefinite" path="M40,108 H1060"/>
+    </circle>
   </g>
 </svg>

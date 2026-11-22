@@ -1,51 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="170" viewBox="0 0 1100 170" role="img" aria-labelledby="title desc">
-  <title id="title">Connect with Naveen Singh on LinkedIn</title>
-  <desc id="desc">An animated contact panel pointing to Naveen's LinkedIn profile.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="150" viewBox="0 0 1100 150" role="img" aria-labelledby="title desc">
+  <title id="title">Get in touch with Naveen Singh on LinkedIn</title>
+  <desc id="desc">A light contact card pointing to Naveen's LinkedIn profile, with a gentle pulsing marker and a flowing line.</desc>
   <defs>
-    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#21D4FD"/>
-      <stop offset="0.5" stop-color="#2DD4BF"/>
-      <stop offset="1" stop-color="#FF6B4A"/>
-    </linearGradient>
-    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="4" result="b"/>
+    <filter id="ctShadow" x="-3%" y="-10%" width="106%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#1E1B4B" flood-opacity="0.09"/>
+    </filter>
+    <filter id="ctGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <linearGradient id="ctLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
   </defs>
-  <rect x="1" y="1" width="1098" height="168" rx="8" fill="#0A0F17" stroke="#273544" stroke-width="2"/>
-  <g font-family="Segoe UI, Arial, sans-serif">
-    <text x="46" y="59" fill="#F8FAFC" font-size="22" font-weight="700">LET'S BUILD SOMETHING USEFUL</text>
-    <text x="46" y="91" fill="#8FA1B5" font-size="15">Python, APIs, AI automation, and systems that hold up in production.</text>
-    <text x="46" y="128" fill="#72E6D4" font-size="18" font-weight="700">linkedin.com/in/naveenslog</text>
-    <rect x="46" y="142" width="285" height="3" rx="2" fill="url(#signal)">
-      <animate attributeName="width" values="70;285;70" dur="4.4s" repeatCount="indefinite"/>
-    </rect>
-  </g>
 
-  <g transform="translate(886 85)">
-    <g fill="none" stroke="url(#signal)" stroke-width="2" opacity="0.65">
-      <circle r="33">
-        <animate attributeName="r" values="30;62" dur="2.8s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.8;0" dur="2.8s" repeatCount="indefinite"/>
-      </circle>
-      <circle r="33">
-        <animate attributeName="r" values="30;62" dur="2.8s" begin="-1.4s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.8;0" dur="2.8s" begin="-1.4s" repeatCount="indefinite"/>
-      </circle>
-    </g>
-    <rect x="-64" y="-40" width="128" height="80" rx="8" fill="#142331" stroke="#3A5368" stroke-width="2"/>
-    <!-- LinkedIn-style mark, not the official logo -->
-    <text x="0" y="14" text-anchor="middle" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="800">in</text>
-    <circle cx="53" cy="-31" r="8" fill="#FF6B4A" filter="url(#glow)">
-      <animate attributeName="r" values="6;10;6" dur="1.8s" repeatCount="indefinite"/>
-    </circle>
-    <animateTransform attributeName="transform" type="translate" values="886 82;886 89;886 82" dur="4s" repeatCount="indefinite"/>
-  </g>
+  <rect x="6" y="6" width="1088" height="138" rx="20" fill="#FFFFFF" stroke="#E6E9F2" stroke-width="1.5" filter="url(#ctShadow)"/>
 
-  <path d="M380 112 C520 40 676 42 800 92" fill="none" stroke="url(#signal)" stroke-width="2" stroke-dasharray="8 12" opacity="0.55">
-    <animate attributeName="stroke-dashoffset" values="0;-80" dur="3s" repeatCount="indefinite"/>
+  <text x="48" y="56" fill="#0F172A" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700">Happy to talk on LinkedIn</text>
+  <text x="48" y="86" fill="#64748B" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14">Full-stack work, n8n automation, AI agents, or a consulting brief.</text>
+  <text x="48" y="116" fill="#4F46E5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700">linkedin.com/in/naveenslog</text>
+
+  <path d="M520 88 C 640 40, 780 40, 900 78" fill="none" stroke="#E2E8F0" stroke-width="2"/>
+  <path d="M520 88 C 640 40, 780 40, 900 78" fill="none" stroke="url(#ctLine)" stroke-width="2" stroke-dasharray="5 10">
+    <animate attributeName="stroke-dashoffset" values="0;-80" dur="4.5s" repeatCount="indefinite"/>
   </path>
-  <circle r="4" fill="#FFFFFF" filter="url(#glow)">
-    <animateMotion dur="3.4s" repeatCount="indefinite" path="M380,112 C520,40 676,42 800,92"/>
+
+  <g transform="translate(930 78)">
+    <rect x="-86" y="-28" width="172" height="56" rx="16" fill="#EEF2FF" stroke="#C7D2FE" stroke-width="1.5"/>
+    <circle cx="-62" cy="0" r="6" fill="#4F46E5">
+      <animate attributeName="r" values="4.5;7;4.5" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="10" y="6" text-anchor="middle" fill="#3730A3" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700">Message me</text>
+  </g>
+
+  <circle r="4" fill="#4F46E5" filter="url(#ctGlow)">
+    <animateMotion dur="4.5s" repeatCount="indefinite" path="M520,88 C 640,40 780,40 900,78"/>
   </circle>
 </svg>

@@ -1,51 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="180" viewBox="0 0 1100 180" role="img" aria-labelledby="title desc">
-  <title id="title">Connected engineering capabilities</title>
-  <desc id="desc">An animated network connecting Python backends, AI agents, n8n workflows and cloud delivery.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="200" viewBox="0 0 1100 200" role="img" aria-labelledby="title desc">
+  <title id="title">Four connected practice areas</title>
+  <desc id="desc">A light diagram of four pillars — full-stack, n8n, AI agents and consulting — with dots flowing between them.</desc>
   <defs>
-    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="3" result="b"/>
+    <filter id="skShadow" x="-3%" y="-8%" width="106%" height="124%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#1E1B4B" flood-opacity="0.09"/>
+    </filter>
+    <filter id="skGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <linearGradient id="skLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4F46E5"/>
+      <stop offset="0.5" stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#E07A5F"/>
+    </linearGradient>
   </defs>
-  <rect x="1" y="1" width="1098" height="178" rx="8" fill="#0A0F17" stroke="#273544" stroke-width="2"/>
-  <g fill="none" stroke="#304357" stroke-width="2" stroke-dasharray="7 10">
-    <path d="M550 90 L150 55"/>
-    <path d="M550 90 L340 130"/>
-    <path d="M550 90 L760 130"/>
-    <path d="M550 90 L950 55"/>
-    <animate attributeName="stroke-dashoffset" values="0;-68" dur="4s" repeatCount="indefinite"/>
-  </g>
-  <g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
-    <g transform="translate(550 90)">
-      <polygon points="0,-47 42,-24 42,24 0,47 -42,24 -42,-24" fill="#12353D" stroke="#2DD4BF" stroke-width="2"/>
-      <polygon points="0,-34 30,-17 30,17 0,34 -30,17 -30,-17" fill="#0D202A" stroke="#21D4FD"/>
-      <text y="-2" fill="#FFFFFF" font-size="13" font-weight="800">DEV</text>
-      <text y="15" fill="#80EADC" font-size="10" font-weight="700">CORE</text>
-      <animateTransform attributeName="transform" type="translate" values="550 86;550 94;550 86" dur="4s" repeatCount="indefinite"/>
+
+  <rect x="6" y="6" width="1088" height="188" rx="20" fill="#FFFFFF" stroke="#E6E9F2" stroke-width="1.5" filter="url(#skShadow)"/>
+
+  <path d="M145 100 C 310 36, 430 36, 550 100 C 670 164, 790 164, 955 100" fill="none" stroke="#E2E8F0" stroke-width="3"/>
+  <path d="M145 100 C 310 36, 430 36, 550 100 C 670 164, 790 164, 955 100" fill="none" stroke="url(#skLine)" stroke-width="2" stroke-dasharray="5 11" opacity="0.9">
+    <animate attributeName="stroke-dashoffset" values="0;-96" dur="6s" repeatCount="indefinite"/>
+  </path>
+
+  <g font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(145 100)">
+      <rect x="-82" y="-30" width="164" height="60" rx="16" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.5"/>
+      <text y="0" fill="#3730A3" font-size="13" font-weight="700">FULL-STACK</text>
+      <text y="18" fill="#64748B" font-size="10">Python · FastAPI · React</text>
     </g>
-    <g transform="translate(150 55)">
-      <rect x="-68" y="-24" width="136" height="48" rx="7" fill="#142A40" stroke="#2A78A2"/>
-      <text y="5" fill="#80DAF5" font-size="12" font-weight="700">PYTHON / APIS</text>
-      <animate attributeName="opacity" values="0.68;1;0.68" dur="3.6s" repeatCount="indefinite"/>
+    <g transform="translate(415 70)">
+      <rect x="-74" y="-30" width="148" height="60" rx="16" fill="#F0FDFA" stroke="#0F766E" stroke-width="1.5"/>
+      <text y="0" fill="#115E59" font-size="13" font-weight="700">N8N</text>
+      <text y="18" fill="#64748B" font-size="10">Workflow automation</text>
     </g>
-    <g transform="translate(340 130)">
-      <rect x="-62" y="-23" width="124" height="46" rx="7" fill="#30291B" stroke="#97792D"/>
-      <text y="5" fill="#F4D36A" font-size="12" font-weight="700">AI AGENTS</text>
-      <animate attributeName="opacity" values="0.68;1;0.68" dur="3.6s" begin="-0.9s" repeatCount="indefinite"/>
+    <g transform="translate(685 130)">
+      <rect x="-78" y="-30" width="156" height="60" rx="16" fill="#FFF1EC" stroke="#E07A5F" stroke-width="1.5"/>
+      <text y="0" fill="#9A3412" font-size="13" font-weight="700">AI AGENTS</text>
+      <text y="18" fill="#64748B" font-size="10">Tools · guardrails</text>
     </g>
-    <g transform="translate(760 130)">
-      <rect x="-70" y="-23" width="140" height="46" rx="7" fill="#3A2528" stroke="#A65059"/>
-      <text y="5" fill="#FF9F8C" font-size="12" font-weight="700">N8N WORKFLOWS</text>
-      <animate attributeName="opacity" values="0.68;1;0.68" dur="3.6s" begin="-1.8s" repeatCount="indefinite"/>
-    </g>
-    <g transform="translate(950 55)">
-      <rect x="-62" y="-24" width="124" height="48" rx="7" fill="#12352E" stroke="#27876E"/>
-      <text y="5" fill="#7CE7C3" font-size="12" font-weight="700">AWS / DOCKER</text>
-      <animate attributeName="opacity" values="0.68;1;0.68" dur="3.6s" begin="-2.7s" repeatCount="indefinite"/>
+    <g transform="translate(955 100)">
+      <rect x="-78" y="-30" width="156" height="60" rx="16" fill="#F8FAFC" stroke="#64748B" stroke-width="1.5"/>
+      <text y="0" fill="#334155" font-size="13" font-weight="700">CONSULTING</text>
+      <text y="18" fill="#64748B" font-size="10">Open source · automation</text>
     </g>
   </g>
-  <g fill="#FFFFFF" filter="url(#glow)">
-    <circle r="4"><animateMotion dur="3.2s" repeatCount="indefinite" path="M150,55 L550,90 L950,55"/></circle>
-    <circle r="4" fill="#FBBF24"><animateMotion dur="3.8s" repeatCount="indefinite" path="M340,130 L550,90 L760,130"/></circle>
+
+  <g filter="url(#skGlow)">
+    <circle r="4.5" fill="#4F46E5">
+      <animateMotion dur="6.5s" repeatCount="indefinite" path="M145,100 C 310,36 430,36 550,100 C 670,164 790,164 955,100"/>
+    </circle>
+    <circle r="3.5" fill="#E07A5F">
+      <animateMotion dur="6.5s" begin="-3.25s" repeatCount="indefinite" path="M145,100 C 310,36 430,36 550,100 C 670,164 790,164 955,100"/>
+    </circle>
   </g>
 </svg>

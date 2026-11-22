@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="390" viewBox="0 0 1100 390" role="img" aria-labelledby="title desc">
+  <title id="title">Four things Naveen Singh does</title>
+  <desc id="desc">Four light cards for full-stack development, n8n workflow automation, AI and agentic workflows, and consulting.</desc>
+  <defs>
+    <filter id="cardShadow" x="-4%" y="-6%" width="108%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#1E1B4B" flood-opacity="0.09"/>
+    </filter>
+  </defs>
+
+  <rect x="6" y="6" width="1088" height="378" rx="24" fill="#F8FAFC" stroke="#E6E9F2" stroke-width="1.5" filter="url(#cardShadow)"/>
+
+  <!-- Card 1: Full-stack -->
+  <g transform="translate(36 28)">
+    <rect width="500" height="154" rx="18" fill="#FFFFFF" stroke="#E6E9F2"/>
+    <rect x="0" y="0" width="8" height="154" rx="4" fill="#4F46E5">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="3.4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="32" y="40" fill="#4F46E5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">01</text>
+    <text x="32" y="68" fill="#0F172A" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700">Full-stack development</text>
+    <text x="32" y="98" fill="#475569" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14">Python, FastAPI and Django on the back end, React on</text>
+    <text x="32" y="120" fill="#475569" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14">the front end, plus APIs, Docker and AWS to ship the work.</text>
+  </g>
+
+  <!-- Card 2: n8n -->
+  <g transform="translate(564 28)">
+    <rect width="500" height="154" rx="18" fill="#FFFFFF" stroke="#E6E9F2"/>
+    <rect x="0" y="0" width="8" height="154" rx="4" fill="#0F766E">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="3.4s" begin="-0.8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="32" y="40" fill="#0F766E" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">02</text>
+    <text x="32" y="68" fill="#0F172A" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700">n8n workflow automation</text>
+    <text x="32" y="98" fill="#475569" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14">Agentic n8n orchestration for business processes that</text>
+    <text x="32" y="120" fill="#475569" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14">need to run reliably, again and again.</text>
+  </g>
+
+  <!-- Card 3: AI agents -->
+  <g transform="translate(36 206)">
+    <rect width="500" height="154" rx="18" fill="#FFFFFF" stroke="#E6E9F2"/>
+    <rect x="0" y="0" width="8" height="154" rx="4" fill="#E07A5F">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="3.4s" begin="-1.6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="32" y="40" fill="#E07A5F" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">03</text>
+    <text x="32" y="68" fill="#0F172A" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700">AI and agentic workflows</text>
+    <text x="32" y="98" fill="#475569" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14">LLM agents with tools, guardrails and human approval,</text>
+    <text x="32" y="120" fill="#475569" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14">so the work finishes safely rather than stopping at a prompt.</text>
+  </g>
+
+  <!-- Card 4: Consulting -->
+  <g transform="translate(564 206)">
+    <rect width="500" height="154" rx="18" fill="#FFFFFF" stroke="#E6E9F2"/>
+    <rect x="0" y="0" width="8" height="154" rx="4" fill="#64748B">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="3.4s" begin="-2.4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="32" y="40" fill="#64748B" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">04</text>
+    <text x="32" y="68" fill="#0F172A" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700">Consulting</text>
+    <text x="32" y="98" fill="#475569" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14">Open-source and automation consulting: practical,</text>
+    <text x="32" y="120" fill="#475569" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14">maintainable solutions rather than throwaway prototypes.</text>
+  </g>
+</svg>
