@@ -1,71 +1,122 @@
+<!--
+  PROFILE README
+  Publish this from https://github.com/naveenslog/naveenslog
+  to display it on the GitHub profile Overview page.
+-->
+
 <div align="center">
-  <img height="150" src="https://camo.githubusercontent.com/62da68eb62b1e5f175f7d1f0191dd89a653d7908feb22d37d4a0ab07365d6791/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4d3967624264396e6244724f5475314d71782f67697068792e676966"  />
+
+<a href="https://www.linkedin.com/in/naveenslog/">
+  <img width="100%" alt="Naveen Singh - full-stack developer and AI automation" src="./assets/profile-hero.svg" />
+</a>
+
+<a href="https://www.linkedin.com/in/naveenslog/">
+  <img width="900" alt="Naveen Singh's focus, typed out" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2600&pause=850&color=22D3EE&center=true&vCenter=true&multiline=false&repeat=true&random=false&width=900&height=55&lines=I+help+businesses+automate+work+with+Python+and+AI;Independent+contractor+at+UNICC;n8n+agentic+workflows+and+open-source+consulting;Let's+connect+%7C+linkedin.com%2Fin%2Fnaveenslog" />
+</a>
+
+<p>
+  <a href="https://www.linkedin.com/in/naveenslog/"><img width="56" height="56" alt="LinkedIn" title="LinkedIn" src="https://skillicons.dev/icons?i=linkedin&theme=dark" /></a>&nbsp;
+  <a href="https://github.com/naveenslog"><img width="56" height="56" alt="GitHub" title="GitHub" src="https://simpleicons.dev/icons?icons=github&theme=dark&iconColor=FFFFFF" /></a>&nbsp;
+  <a href="https://cognifydigital.in/automation-map"><img width="56" height="56" alt="Free automation map" title="Free automation map" src="https://simpleicons.dev/icons?icons=googlechrome&theme=dark" /></a>
+</p>
+
+<p>
+  <a href="https://www.linkedin.com/in/naveenslog/"><img alt="LinkedIn profile of Naveen Singh" src="https://img.shields.io/badge/LinkedIn-naveenslog-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://cognifydigital.in/automation-map"><img alt="Free automation map" src="https://img.shields.io/badge/Free_automation_map-0F766E?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+</p>
+
 </div>
 
-###
+## Building useful systems
+
+I am Naveen Singh, a full-stack developer based in Delhi NCR. I have 12+ years in IT and 7+ years with Python. I work as an independent contractor at UNICC, a United Nations agency, and have worked on systems for UNHCR, UNICEF, UNFPA and WFP.
+
+I also take on Python, API and AI-automation work: LLM agents, n8n agentic workflows, and open-source solutions and consulting.
+
+### What I take on
+
+- Backend systems in Python, Django and FastAPI that stay maintainable in production.
+- AI automation and agents that use tools and finish the job, not demos that stop at a prompt.
+- n8n agentic workflows, plus practical open-source solutions and consulting.
+
+## Core practice
+
+| Area | How I apply it |
+| :--- | :--- |
+| **Python backends** | Django, FastAPI, PostgreSQL, and APIs designed to be operated, not just launched. |
+| **AI automation and agents** | Tool-using LLM agents and automation that plug into real business workflows. |
+| **n8n workflows** | Agentic n8n orchestration for reliable, repeatable operations. |
+| **Open-source consulting** | Practical, maintainable solutions built on open-source tools rather than throwaway prototypes. |
+| **Delivery** | React on the front end, with Docker, AWS and the surrounding engineering that gets work shipped. |
+
+## Selected work
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/naveensinghs/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  </a>
-  <a href="https://www.youtube.com/@naveenslog" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="youtube logo"  />
-  </a>
-  <a href="https://twitter.com/naveenslog" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
-  </a>
+  <img width="100%" alt="Animated path from understanding the problem to shipping the system" src="./assets/projects-flow.svg" />
 </div>
 
-###
+| Work | Focus | Explore |
+| :--- | :--- | :---: |
+| **Claude Talking Avatar** | A Claude Code skill that turns a photo and a voice-over into a lip-synced cartoon talking-head video. | [Repository](https://github.com/naveenslog/claude-talking-avatar) |
+| **Automation map** | A free map for spotting work that is worth automating. | [Open the map](https://cognifydigital.in/automation-map) |
 
-<h1 align="center">Hey there 👋</h1>
+## Tools I reach for
 
-###
+<div align="center">
 
-<h3 align="left">👩‍💻  About Me</h3>
+<img width="100%" alt="Animated map of Naveen Singh's engineering capabilities" src="./assets/skills-network.svg" />
 
-###
+<br />
 
-<p align="left">My name is Naveen Singh, I'm from Delhi (India)<br><br>- 🔭 I’m working as a Fullstack Developer<br>- 📚 I'm currently learning AWS, System Design, Design Patterns<br>- ⚡ In my free time I play COD MW2</p>
+<img alt="Python, Django, FastAPI, React, PostgreSQL, AWS, Docker and Git" src="https://skillicons.dev/icons?i=python,django,fastapi,react,postgres,aws,docker,git&perline=8" />
 
-###
+<br /><br />
 
-<h3 align="left">🛠 Language and tools</h3>
+<img alt="n8n agentic workflows" src="https://img.shields.io/badge/n8n-Agentic_workflows-EA4B71?style=flat-square" />
+<img alt="AI agents and tool-using automation" src="https://img.shields.io/badge/AI_Agents-Tool--using_automation-0F766E?style=flat-square" />
+<img alt="Open-source solutions and consulting" src="https://img.shields.io/badge/Open_Source-Solutions_%26_consulting-0284C7?style=flat-square" />
 
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="40" alt="django logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" height="40" alt="graphql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" height="40" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" height="40" alt="amazonwebservices logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" height="40" alt="firebase logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
 </div>
 
-###
+## Live engineering signal
 
-<h3 align="left">🔥   My Stats :</h3>
-<div  align="center">
-<img  src="https://streak-stats.demolab.com?user=naveenslog&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3"  height="220"  alt="streak graph"  />
+<div align="center">
+
+<a href="https://github.com/naveenslog">
+  <img width="96%" alt="Live GitHub contribution summary for Naveen Singh" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=naveenslog&theme=github_dark" />
+</a>
+
+<a href="https://github.com/naveenslog">
+  <img width="48%" alt="Naveen Singh repositories by programming language" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=naveenslog&theme=github_dark" />
+</a>
+<a href="https://github.com/naveenslog">
+  <img width="48%" alt="Naveen Singh most-used programming languages" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=naveenslog&theme=github_dark" />
+</a>
+
+<br />
+
+<a href="https://github.com/naveenslog">
+  <img alt="Live GitHub streak statistics for Naveen Singh" src="https://streak-stats.demolab.com?user=naveenslog&hide_border=true&background=0B1220&ring=22D3EE&fire=F97316&currStreakLabel=CBD5E1&sideLabels=CBD5E1&dates=94A3B8" />
+</a>
+
 </div>
 
-<h3 align="left">🔥   My Activities :</h3>
-<div  align="center">
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=naveenslog&show_icons=true&locale=en&layout=compact" alt="naveenslog" />
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=naveenslog&show_icons=true&locale=en" alt="naveenslog" />
-</div>  
+## Let's work together
 
+If you have a system to automate, an API to build, or an agentic workflow to get into production, I would like to hear about it.
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/naveenslog/">
+  <img width="100%" alt="Animated invitation to connect with Naveen Singh on LinkedIn" src="./assets/contact-signal.svg" />
+</a>
+
+<p>
+  <a href="https://www.linkedin.com/in/naveenslog/"><img width="52" height="52" alt="LinkedIn" title="LinkedIn" src="https://skillicons.dev/icons?i=linkedin&theme=dark" /></a>&nbsp;
+  <a href="https://github.com/naveenslog"><img width="52" height="52" alt="GitHub" title="GitHub" src="https://simpleicons.dev/icons?icons=github&theme=dark&iconColor=FFFFFF" /></a>&nbsp;
+  <a href="https://cognifydigital.in/automation-map"><img width="52" height="52" alt="Free automation map" title="Free automation map" src="https://simpleicons.dev/icons?icons=googlechrome&theme=dark" /></a>
+</p>
+
+<img width="100%" alt="Animated transition to Naveen Singh's GitHub repositories" src="./assets/profile-footer.svg" />
+
+</div>
